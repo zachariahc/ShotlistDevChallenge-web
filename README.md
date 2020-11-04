@@ -22,19 +22,17 @@ We have given you a set of tasks which should take no more than 10 hours to comp
 
 ## Current code
 
-![Shotlist overview screenshot](https://i.imgur.com/YnUQclp.png)
-
 You will be given a ReactJS project generated with **create-react-app** using **Node 12.16.3**. This project's dependencies are listed in the `package.json` file and you may pull in external dependencies as you feel necessary. The project's `App.js` file calls a single `BrandOnboarding` React component which is the basis of this challenge. Your tasks will be to modify certain of this preview's sub-views in the alloted time.
 
 ## Milestones
 
 We are giving you three primary tasks:
 1. Create a progress bar for the top of the page as shown here:
-   ![Progress Bar screen shot]()
+   ![Progress Bar screen shot](https://i.imgur.com/U3hVImR.png)
    
 2. Add a responsive breakpoint for mobile devices that hides the sidebar image on each page (shown below)
-   ![Breakpoint gif]()
+   ![Breakpoint gif](https://media3.giphy.com/media/5jG9e0EGGQE1gcvZsP/giphy.gif)
    
 3. Create an append-only list for adding team emails on the final onboarding page:
 
-   ![Team invites]()
+   ![Team invites](https://i.imgur.com/YNUykAv.png)
