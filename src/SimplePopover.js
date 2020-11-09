@@ -36,7 +36,7 @@ export default function SimplePopover(props) {
       <Button   
         aria-describedby={id}
         variant="outlined"
-        color="primary"
+        color="default"
         className={classes.formBtn}
         onClick={handleClick}
       >
