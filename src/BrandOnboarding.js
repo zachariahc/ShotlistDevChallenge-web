@@ -115,7 +115,7 @@ export default function BrandOnboarding() {
     return (
       <div className={classes.root}>
         <Grid container spacing={3}>
-          <Grid item sm={8}>
+          <Grid item sm={12} md={8}>
             <div className={classes.vertical}>
               <Paper elevation={0} className={classes.paper}>
                 <OnboardingHeader
@@ -184,7 +184,7 @@ export default function BrandOnboarding() {
   function profileForm() {
     return (
       <Grid container spacing={3}>
-        <Grid item sm={8}>
+        <Grid item sm={12} md={8}>
           <div className={classes.vertical}>
             <Paper elevation={0} className={classes.paper}>
               <OnboardingHeader
@@ -195,15 +195,15 @@ export default function BrandOnboarding() {
               <form className={classes.root} noValidate autoComplete="off">
                 <Grid container spacing={3}>
                   <p>Upload the brand's profile picture</p>
-                  <Grid item sm={6}>
+                  <Grid item xs={8}>
                     <Paper elevation={0} className={classes.uploadBox}>
                       <AddCircle className={classes.addIcon} />
                     </Paper>
                   </Grid>
-                  <Grid item sm={6}>
+                  <Grid item xs={8}>
                     <h3>{}</h3>
                   </Grid>
-                  <Grid item sm={12}>
+                  <Grid item xs={12}>
                     <p>Add a brief bio</p>
                     <TextField
                       id="industry"
@@ -211,7 +211,7 @@ export default function BrandOnboarding() {
                       variant="outlined"
                     />
                   </Grid>
-                  <Grid item sm={12}>
+                  <Grid item xs={12}>
                     <p>Add/Link portfolio</p>
                     <TextField
                       id="industry"
@@ -240,7 +240,7 @@ export default function BrandOnboarding() {
   function teamForm() {
     return (
       <Grid container spacing={3}>
-        <Grid item sm={8}>
+        <Grid item sm={12} md={8}>
           <div className={classes.vertical}>
             <Paper elevation={0} className={classes.paper}>
               <OnboardingHeader
